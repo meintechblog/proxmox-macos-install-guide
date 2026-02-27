@@ -1,5 +1,13 @@
 # Troubleshooting
 
+## Tahoe/latest vs Ventura fallback
+
+- Start with Tahoe/latest path first.
+- If latest repeatedly stalls on your hardware, switch to Ventura fallback path.
+- Keep both path docs handy:
+  - `docs/INSTALL_TAHOE.md`
+  - `docs/INSTALL_VENTURA.md`
+
 ## Apple logo freeze
 
 Symptoms:
@@ -8,13 +16,14 @@ Symptoms:
 
 Fixes:
 1. Use machine type `pc-q35-8.1`.
-2. Use OpenCore on `ide0` and Ventura recovery on `ide2`.
+2. Use OpenCore on `ide0` and recovery on `ide2`.
 3. Use tested CPU args:
    - `Cascadelake-Server`
    - `+invtsc`
    - `vmware-cpuid-freq=on`
-4. Ensure recovery was downloaded with Ventura board-id:
-   - `Mac-B4831CEBD52A0C4C`
+4. Ensure recovery board-id matches your path:
+   - Tahoe/latest path: `Mac-7BA5B2D9E42DDD94` with `-os latest`
+   - Ventura fallback path: `Mac-B4831CEBD52A0C4C`
 
 ## No volume large enough in installer
 

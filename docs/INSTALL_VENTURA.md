@@ -2,6 +2,15 @@
 
 Use this path if latest/Tahoe behavior is unstable on your host.
 
+## Upstream links (same sources referenced in XDA)
+
+- OpenCore ISO:
+  - https://github.com/LongQT-sea/OpenCore-ISO
+  - https://github.com/LongQT-sea/OpenCore-ISO/releases
+- macOS installer/recovery builder:
+  - https://github.com/LongQT-sea/macos-iso-builder
+  - https://github.com/LongQT-sea/macos-iso-builder/releases
+
 ## Requirements
 
 - Intel CPU with VT-x enabled

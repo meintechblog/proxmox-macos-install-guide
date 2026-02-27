@@ -6,6 +6,15 @@
 - On this host, latest mapped to Tahoe-track recovery.
 - If Apple changes the latest channel, you may get a different latest release.
 
+## Upstream links (same sources referenced in XDA)
+
+- OpenCore ISO:
+  - https://github.com/LongQT-sea/OpenCore-ISO
+  - https://github.com/LongQT-sea/OpenCore-ISO/releases
+- macOS installer/recovery builder:
+  - https://github.com/LongQT-sea/macos-iso-builder
+  - https://github.com/LongQT-sea/macos-iso-builder/releases
+
 ## Requirements
 
 - Intel CPU with VT-x enabled

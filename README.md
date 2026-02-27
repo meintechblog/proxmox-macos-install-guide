@@ -36,6 +36,15 @@ Practical, tested guide to run macOS on Proxmox 9 (Intel) with OpenCore.
 - `scripts/vm900_rebuild.sh` - rebuild VM 900 with tested settings
 - `scripts/post_install_cleanup.sh` - cleanup after successful install
 
+## Upstream Resources (as referenced in XDA article)
+
+- OpenCore ISO project:
+  - https://github.com/LongQT-sea/OpenCore-ISO
+  - https://github.com/LongQT-sea/OpenCore-ISO/releases
+- macOS installer/recovery image builder:
+  - https://github.com/LongQT-sea/macos-iso-builder
+  - https://github.com/LongQT-sea/macos-iso-builder/releases
+
 ## Disclaimer
 
 Use at your own risk. Ensure legal and licensing compliance for your environment.

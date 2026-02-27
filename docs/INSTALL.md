@@ -19,3 +19,12 @@ Use this page to pick the best install path for your Proxmox 9 Intel host.
 1. Start with Tahoe/latest.
 2. If you get recurring Apple-logo stalls, switch to Ventura fallback.
 3. Keep VM snapshots before major updates in both paths.
+
+## External GitHub pages (from XDA references)
+
+- OpenCore ISO:
+  - https://github.com/LongQT-sea/OpenCore-ISO
+  - https://github.com/LongQT-sea/OpenCore-ISO/releases
+- macOS installer/recovery images:
+  - https://github.com/LongQT-sea/macos-iso-builder
+  - https://github.com/LongQT-sea/macos-iso-builder/releases

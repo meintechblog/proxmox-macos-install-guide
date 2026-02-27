@@ -1,0 +1,14 @@
+# OS/editor
+.DS_Store
+*.swp
+*.swo
+
+# local artifacts
+*.img
+*.raw
+*.dmg
+*.chunklist
+*.iso
+
+# logs
+*.log
